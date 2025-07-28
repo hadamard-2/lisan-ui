@@ -7,10 +7,15 @@
 @import "tailwindcss";
 @font-face {
     font-family: "Neteru";
-    src: url("../assets/fonts/Neteru.ttf") format("truetype");
+    src: url("/fonts/Neteru.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
+
+html, body {
+  overscroll-behavior: none;
+}
+
 
 * {
     font-family: "Manrope";
